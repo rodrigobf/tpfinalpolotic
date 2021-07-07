@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+.encabezado{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    background-color: teal;
+
+}
+.encabezado img{
+    margin-top: 5px;
+    margin-left: 35px;
+    height: 90px;
+    width: 150px;
+}
+.encabezado button{
+    position: relative;
+    display: flex;
+
+    font-size:14px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+   
+    background:teal;
+    border:1px ridge;
+    border-color: white;
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    left: 60%;    
+}
+.encabezado button a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu{
+    background-color:darkslategray;
+        
+}
+.menu nav{
+display: flex;
+padding:15px 50px;
+margin-left: 10%;
+}
+
+.menu nav ul{
+    list-style: none;
+    display: flex;
+
+}
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    padding:12px 15px;
+}
+.menu nav ul li{
+    display: block;
+    flex-direction: column;
+    background-color: darkslategray;
+}
+.menu nav ul li ul{
+    position: absolute;
+    display: none;
+    padding: initial;
+    background-color: teal;
+}
+.menu nav ul li:hover>ul{
+    display: block;
+
+}
+
+.cuerpo{
+    padding: 5% 0px;
+    background-color: chocolate;
+    font-family: 'Courier New', Courier, monospace;   
+}
+.cuerpo table{
+    border:3px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    background-color:white;
+    border-spacing: 2px;
+    border-color: black;
+}
+
+#masproductos{
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.cuerpo img{
+    height: 200px;
+    width: 300px;
+}
+
+.footer{
+    flex: 5%;
+    padding: 20px;
+    color: white;
+    background-color:darkslategray;
+}
+#login{
+    border: 3px;
+    border-style: double;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%; 
+    margin-block-end: 5%;  
+    color: white;
+    background-color:darkslategray;
+}
+
+#formulario input{
+height: 30px;
+
+}
+
+#registro{
+    border: 3px;
+    border-style: double;
+    text-align:center;
+    margin-left: 10%;
+    margin-right: 10%;   
+    color: white;
+    background-color:darkslategray;
+}
+
+#formulario input{
+height: 30px;
+
+}
